@@ -349,6 +349,9 @@ footer p{
         margin-top: 1.5rem;
         flex-basis: 100%;
     }
+    .btn-toggle{
+        display: flex;
+    }
     .showMenu{
         transform: translateX(0);
     }
