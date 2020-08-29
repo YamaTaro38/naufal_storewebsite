@@ -90,7 +90,8 @@ header{
     width: 100%;
     background: #fff;
     box-shadow: 0 0 5px rgba(0,0,0,0.15);
-    position: relative;
+    position: fixed;
+    top: 0;
     z-index: 9;
     border-bottom: 3px solid #18eb62;
 }
@@ -315,7 +316,21 @@ footer p{
         font-size: 2rem;
     }
     header nav ul{
-        display: none;
+        display: block;
+        position: fixed;
+        width: 240px;
+        top: 60.2px;
+        right: 0;
+        height: 100%;  
+        background-color: #fff;
+        transform: translateX(100%);
+        transition: 0.5s ease all;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    header nav ul li a{
+        display: block;
+        width: 100%;
+        padding: 1.5rem 2rem
     }
     .product{
         margin-top: 4rem;
@@ -330,7 +345,7 @@ footer p{
         flex-basis: 100%;
     }
     .showMenu{
-        display: block;
+        transform: translateX(0);
     }
 }
 
@@ -344,6 +359,18 @@ footer p{
         font-size: 1.5rem;
     }
     header nav ul{
-        display: none;
+        display: block;
+        position: fixed;
+        width: 200px;
+        top: 43px;
+        right: 0;
+        height: 100%;  
+        background-color: #fff;
+        transform: translateX(100%);
+        transition: 0.5s ease all;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    .showMenu{
+        transform: translateX(0);
     }
 }
