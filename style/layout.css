@@ -1,0 +1,277 @@
+@font-face{
+    src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
+    font-family: Josefin;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1, p{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    background: #fff;
+}
+
+/* Global  */
+.section{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    font-family: Josefin;
+    padding: 0.5rem 2.5rem;
+    align-items: center;
+}
+
+.btn-primary{
+    display: inline-block;
+    background-color: #18eb62;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 1.25rem;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
+.black-light{
+}
+
+.green-light{
+    color: #18eb62;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 15px 0;
+}
+
+.btn-choosed{
+    background-color: #18eb62;
+    color: #fff;
+}
+
+.text-detail{
+    color: rgb(119, 119, 119);
+}
+
+.block-text{
+    background-color: #18eb62;
+    color: #fff;
+}
+
+.wa-color{
+    background: #25d366;
+    width: 5rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.ig-color{
+    background: linear-gradient(45deg, #833ab4, #fcaf45);
+    width: 5rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/* Local */
+
+header{
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    position: relative;
+    z-index: 9;
+    border-bottom: 3px solid #18eb62;
+}
+header nav{
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem !important;
+}
+
+header nav .brand{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a{
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    color: #333;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.banner{
+    width: 100%;
+    background: url(/img/bracelet.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vmin;
+    position: relative;
+    top: -68.8px;
+    border-bottom: 4px solid #18eb62;
+}
+
+.banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
+}
+
+.banner .section{
+    display: flex;
+    height: 100%;
+    align-self: center;
+}
+
+.banner .showcase-text,
+.banner .showcase-img{
+    position: relative;
+    z-index: 2;
+    flex: 1;
+}
+
+.banner .showcase-text h1{
+    text-transform: uppercase;
+}
+
+.banner .showcase-text p{
+    padding-left: 8px;
+}
+
+.product .menu-title{
+    width: 100%;
+    text-transform: uppercase;
+    font-family: Josefin;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.product .section{
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.product .menu-box{
+    flex-basis: 360px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.product .menu-img{
+    height: 15rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.product .menu-box img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.product .menu-box ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.product .menu-box ul li{
+    list-style: none;
+    padding: 0.8rem 1rem;
+    border-bottom: 2px solid gainsboro;
+}
+
+.product .menu-box ul li:first-child{
+    border-bottom: 0;
+    text-align: center
+}
+
+.product .menu-box ul li:last-child{
+    border-bottom: 2px solid #18eb62
+}
+
+.message{
+    width: 100%;
+    background: url(/img/contactbg.jpg)no-repeat;
+    background-size: cover;
+    padding: 2rem 0;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.message .section{
+    display: block;
+}
+
+.message .message-title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.message .message-desc{
+    color: #fff;
+    z-index: 2;
+    position: relative;
+    margin-top: 1rem;
+}
+.message::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.15);
+}
+
+.message .message-desc h3{
+    margin: 0;
+}
+
+.message .message-desc a{
+    color: rgb(207, 224, 255);
+    display: inline-block;
+}
+
+footer{
+    background: #18eb62;
+    width: 100%;
+    line-height: 3rem;
+    text-align: center;
+}
+
+footer p{
+    color:#fff;
+    font-family: Josefin;
+    margin: 0;
+}
