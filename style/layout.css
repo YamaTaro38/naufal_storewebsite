@@ -164,6 +164,10 @@ header nav ul li a{
     padding-left: 8px;
 }
 
+.product{
+    margin-top:10rem;
+}
+
 .product .menu-title{
     width: 100%;
     text-transform: uppercase;
@@ -286,6 +290,7 @@ footer p{
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    display: none;
 }
 
 .btn-toggle span{
