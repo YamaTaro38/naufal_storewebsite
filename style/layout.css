@@ -193,6 +193,7 @@ header nav ul li a{
     height: 100%;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    object-fit: cover;
 }
 
 .product .menu-box ul{
@@ -274,4 +275,57 @@ footer p{
     color:#fff;
     font-family: Josefin;
     margin: 0;
+}
+
+/* Google Maps  */
+#googlemaps-canvas .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;}
+
+/* Responsive Tablet  */
+
+@media (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+    .banner{
+        top: 0;
+    }
+    .banner .showcase-text{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .banner .showcase-text h1{
+        font-size: 2rem;
+    }
+    header nav ul{
+        display: none;
+    }
+    .product{
+        margin-top: 4rem;
+    }
+    .product .section{
+        flex-direction: column;
+        margin-top: 0;
+        align-items: unset;
+    }
+    .product .menu-box{
+        margin-top: 1.5rem;
+        flex-basis: 100%;
+    }
+    .btn-primary{
+
+    }
+}
+
+/* Responsive Mobile  */
+
+@media (max-width: 468px){
+    html{
+        font-size: 10px;
+    }
+    .banner .showcase-text h1{
+        font-size: 1.5rem;
+    }
+    header nav ul{
+        display: none;
+    }
 }
