@@ -11,12 +11,17 @@
     <header>
         <nav class="section">
             <div class="brand"><span class="black-light">Naufal</span> <span class="green-light">Store</span></div>
-            <ul>
+            <ul id="list-menu">
                 <li><a class="btn-choosed" href="">beranda</a></li>
                 <li><a href="">produk</a></li>
                 <li><a href="">pesan</a></li>
                 <li><a href="">tentang toko</a></li>
             </ul>
+            <div class="btn-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
@@ -135,5 +140,16 @@
         <p>Copyright 2020 | <span>Naufal Tajuddin Store</span></p>
     </footer>
     
+<script>
+
+    const btnToggle = document.querySelector("header nav .btn-toggle");
+    const listMenu = document.querySelector("#list-menu");
+
+    btnToggle.addEventListener('click', function(){
+        listMenu.class.toggle('.showMenu');
+        alert("YOU");
+    });
+
+</script>
 </body>
 </html>

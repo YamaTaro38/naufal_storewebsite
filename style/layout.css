@@ -277,6 +277,24 @@ footer p{
     margin: 0;
 }
 
+/* Button Toggle  */
+.btn-toggle{
+    width: 2.25rem;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.btn-toggle span{
+    width: 100%;
+    border-radius: 8px;
+    height: 3px;
+    background-color: #333;
+
+}
+
 /* Google Maps  */
 #googlemaps-canvas .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;}
 
@@ -311,8 +329,8 @@ footer p{
         margin-top: 1.5rem;
         flex-basis: 100%;
     }
-    .btn-primary{
-
+    .showMenu{
+        display: block;
     }
 }
 
