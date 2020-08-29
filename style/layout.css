@@ -306,7 +306,7 @@ footer p{
         font-size: 14px;
     }
     .banner{
-        top: -60px;
+        top: 60px;
     }
     .banner .showcase-text{
         flex-basis: 100%;
@@ -356,7 +356,7 @@ footer p{
         font-size: 10px;
     }
     .banner{
-        top: -42px;
+        top: 42px;
     }
     .banner .showcase-text h1{
         font-size: 1.5rem;
