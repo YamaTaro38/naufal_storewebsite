@@ -355,6 +355,9 @@ footer p{
     html{
         font-size: 10px;
     }
+    .banner{
+        top: 0;
+    }
     .banner .showcase-text h1{
         font-size: 1.5rem;
     }
