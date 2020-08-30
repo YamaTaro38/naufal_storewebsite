@@ -3,6 +3,10 @@
     font-family: Josefin;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     box-sizing: border-box;
 }
