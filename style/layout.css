@@ -182,6 +182,7 @@ header nav ul li a{
 
 .product .section{
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .product .menu-box{
@@ -232,7 +233,6 @@ header nav ul li a{
     background-size: cover;
     padding: 2rem 0;
     position: relative;
-    margin-top: 4rem;
 }
 
 .message .section{
